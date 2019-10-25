@@ -175,7 +175,7 @@ namespace CricketSimulation
             Console.WriteLine("\t\t\t\tSCORE BOARD");
             Console.WriteLine("_______________________________________________________________________________________");
 
-            var table = new TablePrinter("Name", "Runs", "1s", "2s", "3s", "4s", "5s", "6s");
+            var table = new TablePrinter("Name", "Runs", "1s", "2s", "3s", "4s", "5s", "6s", "Stike Rate");
             foreach (var player in players)
             {
                 if (player.TotalBallsPlayed > 0)
@@ -183,12 +183,12 @@ namespace CricketSimulation
                     if (player.IsOut == false)
                     {
                         table.AddRow(player.Name, player.Scores + "* (" + player.TotalBallsPlayed + " balls)", player.OneRun,
-                            player.TwoRun, player.ThreeRuns, player.FourRuns, player.FiveRuns, player.SixRuns);
+                            player.TwoRun, player.ThreeRuns, player.FourRuns, player.FiveRuns, player.SixRuns, Math.Round(((double)player.Scores / (double)player.TotalBallsPlayed) * 100, 2) + "%");
                     }
                     else
                     {
                         table.AddRow(player.Name, player.Scores + " (" + player.TotalBallsPlayed + " balls)", player.OneRun,
-                            player.TwoRun, player.ThreeRuns, player.FourRuns, player.FiveRuns, player.SixRuns);
+                            player.TwoRun, player.ThreeRuns, player.FourRuns, player.FiveRuns, player.SixRuns, Math.Round(((double)player.Scores / (double)player.TotalBallsPlayed) * 100, 2) + "%");
                     }
                 }
             }
