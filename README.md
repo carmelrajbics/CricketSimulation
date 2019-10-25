@@ -13,5 +13,5 @@ A program to simulate cricket match of the last four over  with given target  wi
     3. TablePriter class is used to print the result in the tabular format
     4. CricketMatch class is the main class which does most of the logics
     
-    
+ # sample screenshot 1   
 ![sample output](https://github.com/carmelrajbics/CricketSimulation/blob/master/sample%20output/sample%20output%2001.JPG)
