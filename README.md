@@ -14,7 +14,7 @@ A program to simulate cricket match of the last four over  with given target  wi
     4. CricketMatch class is the main class which does most of the logics
     
  # sample screenshot 1   
-![sample output](https://raw.githubusercontent.com/carmelrajbics/CricketSimulation/master/sample%20output/sample%20output%2001.JPG)
+![sample output](https://raw.githubusercontent.com/carmelrajbics/CricketSimulation/master/resources/1.JPG)
 
- # sample screenshot 1  
- ![sample output](https://raw.githubusercontent.com/carmelrajbics/CricketSimulation/master/sample%20output/sample%2002.JPG)
+ # sample screenshot2  
+ ![sample output](https://raw.githubusercontent.com/carmelrajbics/CricketSimulation/master/resources/2.JPG)
