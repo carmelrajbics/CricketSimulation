@@ -15,3 +15,6 @@ A program to simulate cricket match of the last four over  with given target  wi
     
  # sample screenshot 1   
 ![sample output](https://github.com/carmelrajbics/CricketSimulation/blob/master/sample%20output/sample%20output%2001.JPG)
+
+ # sample screenshot 1  
+ ![sample output](https://github.com/carmelrajbics/CricketSimulation/blob/master/sample%20output/sample%2002.JPG)
