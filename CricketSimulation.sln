@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CricketSimulation", "CricketSimulation\CricketSimulation.csproj", "{1F433919-9DCA-425A-9E44-814ECE22011C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestCricketSimulation", "UnitTestCricketSimulation\UnitTestCricketSimulation.csproj", "{40BE8F09-FAF3-4280-90D5-82FA0635EC96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CricketSimulation.Tests", "CricketSimulation.Tests\CricketSimulation.Tests.csproj", "{6343E9CC-DCA7-42B7-B1F3-9DCD4B6802BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{1F433919-9DCA-425A-9E44-814ECE22011C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F433919-9DCA-425A-9E44-814ECE22011C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F433919-9DCA-425A-9E44-814ECE22011C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{40BE8F09-FAF3-4280-90D5-82FA0635EC96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{40BE8F09-FAF3-4280-90D5-82FA0635EC96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{40BE8F09-FAF3-4280-90D5-82FA0635EC96}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{40BE8F09-FAF3-4280-90D5-82FA0635EC96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6343E9CC-DCA7-42B7-B1F3-9DCD4B6802BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6343E9CC-DCA7-42B7-B1F3-9DCD4B6802BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6343E9CC-DCA7-42B7-B1F3-9DCD4B6802BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6343E9CC-DCA7-42B7-B1F3-9DCD4B6802BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
